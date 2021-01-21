@@ -537,6 +537,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     sqlite3
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
