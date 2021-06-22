@@ -254,7 +254,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     libdisplayconfig \
     liboverlay \
-    libqdMetaData.system \
+    libqdMetaData \
+    libqdMetaData.vendor \
     libvulkan \
     libtinyxml \
     libgenlock \
