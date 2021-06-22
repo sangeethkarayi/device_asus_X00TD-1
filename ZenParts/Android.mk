@@ -3,7 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_ANDROID_LIBRARIES := \
-    androidx.preference_preference
+    androidx.preference_preference \
     airbnb-lottie
 
 LOCAL_JAVA_LIBRARIES := \
