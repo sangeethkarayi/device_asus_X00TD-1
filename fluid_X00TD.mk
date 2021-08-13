@@ -36,6 +36,12 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Inherit Project Fluid Official build stuff.
+FLUID_BUILD_TYPE := UNOFFICIAL
+
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.fluid.maintainer=SangeethKarayi \
+  ro.fluid.cpu=SDM636
 
 
 PRODUCT_BRAND := asus
