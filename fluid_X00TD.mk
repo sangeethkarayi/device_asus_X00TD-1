@@ -43,12 +43,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
   ro.fluid.maintainer=SangeethKarayi \
   ro.fluid.cpu=SDM636
 
-#Gapps optional
-ifeq ($(WITH_GAPPS),true)
+
 TARGET_INCLUDE_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
-endif
 
 
 PRODUCT_BRAND := asus
