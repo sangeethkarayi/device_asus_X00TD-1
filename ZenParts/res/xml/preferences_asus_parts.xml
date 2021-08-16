@@ -303,6 +303,9 @@
                 android:targetClass="com.asus.zenparts.speaker.ClearSpeakerActivity"
                 android:targetPackage="com.asus.zenparts.speaker" />
         </Preference>
+                <!-- End Profiles -->
+    <string name="end_explanation"></string>                             
+    <string name="end_explanation_summary"><b>STAY SAFE..!</b></string>
 
     </PreferenceCategory>
 
