@@ -284,8 +284,5 @@
     <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Dirac Sound</string>
 
-        <!-- End Profiles -->
-    <string name="end_explanation"></string>                             
-    <string name="end_explanation_summary"><b>STAY SAFE..!</b></string>
 
 </resources>

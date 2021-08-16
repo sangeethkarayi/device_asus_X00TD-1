@@ -304,10 +304,6 @@
                 android:targetPackage="com.asus.zenparts.speaker" />
         </Preference>
 
-             <PreferenceCategory
-        android:key="end"
-        android:layout="@layout/end_animation" >
-        
     </PreferenceCategory>
 
 </PreferenceScreen>
