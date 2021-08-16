@@ -20,6 +20,8 @@ git clone https://github.com/pkm774/android_hardware_qcom_thermal -b aosp-new/an
 rm -rf hardware/libhardware
 git clone https://github.com/LineageOS/android_hardware_libhardware -b lineage-18.0 hardware/libhardware
 
+rm -rf external/airbnb-lottie
+git clone https://github.com/Corvus-R/android_external_airbnb-lottie.git -b 11 external/airbnb-lottie
 
 export USE_CCACHE=1 && ccache -M 50G
 export CONFIG_STATE_NOTIFIER=y
